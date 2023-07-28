@@ -2,26 +2,115 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: #1a1a1a; /* Negro oscuro */
+  color: #ffffff; /* Texto en blanco */
+
+  /* Gradiente para agregar un toque de morado */
+  background-image: linear-gradient(to bottom, #1a1a1a, #4c0080);
+  
 }
+
+/* Estilos de la barra de desplazamiento */
+::-webkit-scrollbar {
+  width: 8px; /* Ancho de la barra */
+}
+
+/* Estilo del fondo de la barra de desplazamiento */
+::-webkit-scrollbar-track {
+  background-color: #a621ff;
+}
+
+/* Estilo del pulgar (control que se mueve dentro de la barra) */
+::-webkit-scrollbar-thumb {
+  background-color: #4073ff;
+  border-radius: 4px;
+}
+
+/* Estilo del pulgar cuando el usuario interactúa con él (hover) */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #32b0ff;
+}
+
+.title {
+  background: linear-gradient(
+    92.23deg,
+    #ff56f6 21.43%,
+    #b936ee 50.63%,
+    #3bace2 100%,
+    #406aff 117.04%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.btn {
+  background: linear-gradient(
+    92.23deg,
+    #ff56f6 21.43%,
+    #b936ee 50.63%,
+    #3bace2 100%,
+    #406aff 117.04%
+  );
+  box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
+}
+
+.btn:hover {
+  background: linear-gradient(
+    92.23deg,
+    #406aff 21.43%,
+    #3bace2 50.63%,
+    #b936ee 100%,
+    #ff56f6 117.04%
+  );
+}
+
+.gradient,
+.active {
+  background: linear-gradient(
+    92.23deg,
+    #406aff 21.43%,
+    #3bace2 50.63%,
+    #b936ee 100%,
+    #ff56f6 117.04%
+  );
+}
+
+.active {
+  color: #fff;
+  padding: 1rem;
+  border-radius: 100%;
+}
+
+.link {
+  margin-top: 15px;
+}
+
+.img-css{
+  box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
+}
+
+/* Portfolio */
+
+.project-1{
+  background-image: url(../../public/image/logo.png);
+  background-size: cover;
+}
+.project-2{
+  background-image: url(../../public/image/2chance.png);
+  background-size: cover;
+}
+.project-3{
+  background-image: url(../../public/image/appCristo.png);
+  background-size: cover;
+}
+.project-4{
+  background-image: url(../../public/image/portfolio.png);
+  background-size: cover;
+}
+
+
+
+
