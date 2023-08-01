@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "message": "Mensaje 1"
+    },
+    {
+      "id": 2,
+      "message": "Mensaje 2"
+    },
+    {
+      "id": 3,
+      "message": "Mensaje 3"
+    },
+    {
+        "id": 4,
+        "message": "Mensaje 4"
+      },
+      {
+        "id": 5,
+        "message": "Mensaje 5"
+      }
+    
+  ]
+  

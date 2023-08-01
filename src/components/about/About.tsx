@@ -64,7 +64,7 @@ const About = () => {
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{ once: false, amount: 0.5 }}
-                className="min-w-max bg-transparent border-b border-accent  rounded-lg overflow-hidden"
+                className="min-w-full bg-transparent border-b border-accent  rounded-lg overflow-hidden "
               >
                 <div className="grid grid-cols-2">
                   <div className="p-4 text-center text-accent font-primary">Programming Languages</div>
@@ -98,7 +98,7 @@ const About = () => {
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{ once: false, amount: 0.7 }}
-                className="min-w-max bg-transparent border-b border-accent  rounded-lg overflow-hidden"
+                className="min-w-full bg-transparent border-b border-accent  rounded-lg overflow-hidden"
               >
                 <div className="grid grid-cols-2">
                   <div className="p-4 text-center font-primary text-accent">
@@ -130,7 +130,7 @@ const About = () => {
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{ once: false, amount: 0.7 }}
-                className="min-w-max bg-transparent border-b border-accent  rounded-lg overflow-hidden"
+                className="min-w-full bg-transparent border-b border-accent  rounded-lg overflow-hidden"
               >
                 <div className="grid grid-cols-2">
                   <div className="p-4 text-center font-primary text-accent">Databases</div>
@@ -156,7 +156,7 @@ const About = () => {
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{ once: false, amount: 0.7 }}
-                className="min-w-max bg-transparent border-b border-accent rounded-lg overflow-hidden"
+                className="min-w-full bg-transparent border-b border-accent rounded-lg overflow-hidden"
               >
                 <div className="grid grid-cols-2">
                   <div className="p-4 text-center font-primary text-accent">Tools</div>
