@@ -1,24 +1,37 @@
 [
-    {
-      "id": 1,
-      "message": "Mensaje 1"
-    },
-    {
-      "id": 2,
-      "message": "Mensaje 2"
-    },
-    {
-      "id": 3,
-      "message": "Mensaje 3"
-    },
-    {
-        "id": 4,
-        "message": "Mensaje 4"
-      },
-      {
-        "id": 5,
-        "message": "Mensaje 5"
-      }
-    
-  ]
-  
+  {
+    "id": 1,
+    "title": "2chance",
+    "info": "2Chance is the website of a personal venture. The application allows customers to add products to a shopping cart and then place the order via WhatsApp to the seller, describing the products, quantity, and total of the order.\n\nOn the other hand, the administrator can add, modify, and delete products, as well as update login information and change the WhatsApp number to which the orders will be sent.\n\nIT IS IMPORTANT TO NOTE THAT THIS APPLICATION DOES NOT HAVE AN ONLINE PAYMENT SYSTEM.",
+    "technologies": "HTML, CSS, TypeScript, Next.js, Tailwind CSS, PostgreSQL, Json Web Tokens, Whatsapp API.",
+    "strings": ["/image/projects/2chance/1.png", "/image/projects/2chance/2.png", "/image/projects/2chance/3.png", "/image/projects/2chance/4.png", "/image/projects/2chance/5.png", "/image/projects/2chance/6.png", "/image/projects/2chance/7.png"]
+  },
+  {
+    "id": 2,
+    "title": "El CristoApp",
+    "info": "The CristoApp is the website of the restaurant 'El Cristo,' located in the Paine commune, Aculeo Lagoon. This project was used as the final assignment in university, although it's not 100% completed, and the source code has been lost, the website is still accessible.\n\nIt mainly consists of an online store where customers, for each purchase, can earn points that they can later redeem for selected products chosen by the administrator. It also features an image-sharing system for customers to share their experiences at the restaurant, along with a small recognition for the top 3 customers.\n\nOn the other hand, the administrator will be able to manage products, customers, other administrators, and orders (which can be for dine-in, takeout, or delivery). Additionally, they can run queries such as checking products with low stock, monthly sales, top-selling products, etc., all within a date range specified by the administrator.",
+    "technologies": "HTML, CSS, PHP, Bootstrap, MySql.",
+    "strings": ["String 1", "String 2", "String 3"]
+  },
+  {
+    "id": 3,
+    "title": "My Portfolio",
+    "info": "This is my web portfolio, intended to showcase my projects. Currently, it is under development and subject to changes.",
+    "technologies": "HTML, CSS, TypeScript, Next.js, Tailwind CSS, framer-motion",
+    "strings": ["/image/projects/portfolio/1.png", "/image/portfolio.png", "/image/projects/portfolio/2.png", "/image/projects/portfolio/4.png"]
+  },
+  {
+    "id": 4,
+    "title": "title 4",
+    "info": "Información adicional para el mensaje 4",
+    "technologies": "HTML, CSS, TypeScript, Next.js, Tailwind CSS, PostgreSQL, Json Web Tokens, Whatsapp API",
+    "strings": ["String 1", "String 2", "String 3"]
+  },
+  {
+    "id": 5,
+    "title": "title 5",
+    "info": "Información adicional para el mensaje 5",
+    "technologies": "HTML, CSS, TypeScript, Next.js, Tailwind CSS, PostgreSQL, Json Web Tokens, Whatsapp API",
+    "strings": ["String 1", "String 2", "String 3"]
+  }
+]

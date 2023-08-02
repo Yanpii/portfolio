@@ -67,7 +67,9 @@ const About = () => {
                 className="min-w-full bg-transparent border-b border-accent  rounded-lg overflow-hidden "
               >
                 <div className="grid grid-cols-2">
-                  <div className="p-4 text-center text-accent font-primary">Programming Languages</div>
+                  <div className="p-4 text-center text-accent font-primary">
+                    Programming Languages
+                  </div>
                   <div className="p-4 text-center flex items-center -space-x-4">
                     <img
                       src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png"
@@ -133,7 +135,9 @@ const About = () => {
                 className="min-w-full bg-transparent border-b border-accent  rounded-lg overflow-hidden"
               >
                 <div className="grid grid-cols-2">
-                  <div className="p-4 text-center font-primary text-accent">Databases</div>
+                  <div className="p-4 text-center font-primary text-accent">
+                    Databases
+                  </div>
                   <div className="p-4 text-center  flex items-center -space-x-4">
                     <img
                       src="https://res.cloudinary.com/hevo/image/upload/f_auto,q_auto/v1626694700/hevo-blog/MongoDB-sm-logo-500x400-1-1.gif"
@@ -159,7 +163,9 @@ const About = () => {
                 className="min-w-full bg-transparent border-b border-accent rounded-lg overflow-hidden"
               >
                 <div className="grid grid-cols-2">
-                  <div className="p-4 text-center font-primary text-accent">Tools</div>
+                  <div className="p-4 text-center font-primary text-accent">
+                    Tools
+                  </div>
                   <div className="p-4 text-center flex items-center -space-x-4">
                     <img
                       src="https://miro.medium.com/v2/resize:fit:870/1*l9IZ_LeUCP_vwxjDKI2Xgw.jpeg"
