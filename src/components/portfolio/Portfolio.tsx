@@ -28,15 +28,15 @@ const Portfolio = () => {
   return (
     <section
       id="portfolio"
-      className="py-8 lg:py-24 lg:h-screen flex items-center mb-8 mt-8"
+      className="py-8 lg:py-24 lg:h-screen flex items-center mb-8 mt-8 xs:mb-80 "
     >
-      <div className="w-full justify-center items-center">
+      <div className="w-full justify-center items-center xs:mt-16">
         <motion.h1
           variants={fadeIn("right", 0.3)}
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.7 }}
-          className="title font-primary mb-4 font-bold text-[40px] lg:text-[60px] text-center lg:text-left"
+          className="title font-primary mb-4 font-bold text-[40px] lg:text-[60px] text-center lg:text-left lg:ml-10"
         >
           Portfolio
         </motion.h1>
@@ -140,30 +140,6 @@ const Portfolio = () => {
                   </a>
                   <a
                     onClick={() => openModal(4)}
-                    className="transition-transform hover:scale-110 rounded-full btn"
-                  >
-                    <FaEye className="w-8 h-8" />
-                  </a>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className=" project-1 w-[300px] h-[300px] lg:w-[400px] lg:h-[400px] container mx-auto p-9 max-w-sm rounded-2xl overflow-hidden  ">
-                <div className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0">
-                  <a
-                    href=""
-                    className="transition-transform hover:scale-110 rounded-full btn"
-                  >
-                    <FaGithub className="w-8 h-8" />
-                  </a>
-                  <a
-                    href=""
-                    className="transition-transform hover:scale-110 rounded-full btn"
-                  >
-                    <FaLink className="w-8 h-8" />
-                  </a>
-                  <a
-                    onClick={() => openModal(5)}
                     className="transition-transform hover:scale-110 rounded-full btn"
                   >
                     <FaEye className="w-8 h-8" />

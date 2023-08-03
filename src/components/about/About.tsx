@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="py-4 lg:py-24 lg:h-screen flex items-center mt-8 mb-8"
+      className="py-4 lg:py-24 lg:h-screen flex items-center mt-8 mb-8 xs:mb-16"
     >
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row lg;items-center lg:gap-x-20 lg:gap-y-0">

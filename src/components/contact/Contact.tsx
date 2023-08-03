@@ -36,7 +36,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="py-8 lg:py-24 lg:h-screen flex items-center justify-center"
+      className="py-8 lg:py-24 lg:h-screen flex items-center justify-center sm:mb-4 sm:mt-4 xs:mb-28 xs:mt-10"
     >
       <motion.form
         action="https://formspree.io/f/xbjvdjyj"
@@ -46,7 +46,7 @@ const Contact = () => {
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: false, amount: 0.7 }}
-        className="bg-transparent p-8 rounded shadow-md"
+        className="bg-transparent p-8 rounded shadow-md xs:mt-12"
       >
         <h1 className="title font-primary font-bold text-[40px] lg:text-[60px] text-center lg:text-left">
           Contact me
